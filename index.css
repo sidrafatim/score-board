@@ -46,7 +46,7 @@ h3 {
     cursor: pointer;
 }
 
-button {
+.add-btn {
     width: 57px;
     height: 57px;
     font-family: cursed-timer;
@@ -60,7 +60,27 @@ button {
     transition: transform .4s;
 }
 
-button:hover {
+.add-btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.new-btn {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 40px;
+    margin-top: 40px;
+    color: #001523;
+    font-weight: bold;
+    background: #fb5607;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 15px inset #fdca40;
+    text-shadow: 2px 2px 4px #a8dadc;
+    transition: transform .5s;
+}
+
+.new-btn:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
