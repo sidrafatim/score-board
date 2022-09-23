@@ -1,5 +1,5 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
@@ -11,21 +11,23 @@
                 <h3>HOME</h3>
                 <div class="scoreboard">
                     <h2 class="main" id="home-score">0</h2>
-                    <button onclick="addOne()">+1</button>
-                    <button onclick="addTwo()">+2</button>
-                    <button onclick="addThree()">+3</button>
+                    <button class="add-btn" onclick="addOne()">+1</button>
+                    <button class="add-btn" onclick="addTwo()">+2</button>
+                    <button class="add-btn" onclick="addThree()">+3</button>
                 </div>
             </div>
             <div>
                 <h3>GUEST</h3>
                 <div class="scoreboard">
                     <h2 class="main" id="guest-score">0</h2>
-                    </div>
-                    <button onclick="addingOne()">+1</button>
-                    <button onclick="addingTwo()">+2</button>
-                    <button onclick="addingThree()">+3</button>
-                </div>    
+                    <button class="add-btn" onclick="add1()">+1</button>
+                    <button class="add-btn" onclick="add2()">+2</button>
+                    <button class="add-btn" onclick="add3()">+3</button>
+                </div>
             </div>
+        </div>
+         <div>
+            <button class="new-btn" onclick="newGame()">NEW GAME</button>
         </div>
         
         
