@@ -1,34 +1,43 @@
-let count = 0
+let homeCount = 0
+let guestCount = 0
+let newCount = 0
 let homeScoreEl = document.getElementById("home-score")
 let guestScoreEl = document.getElementById("guest-score")
 
-
 function addOne() {
-    count += 1
-    homeScoreEl.textContent = count
+    homeCount += 1
+    homeScoreEl.textContent = homeCount
 }
 
 function addTwo() {
-    count += 2
-    homeScoreEl.textContent = count
+    homeCount += 2
+    homeScoreEl.textContent = homeCount
 }
 
 function addThree() {
-    count += 3
-    homeScoreEl.textContent = count
+    homeCount += 3
+    homeScoreEl.textContent = homeCount
 }
 
-function addingOne() {
-    count += 1
-    guestScoreEl.textContent = count
+function add1() {
+    guestCount += 1
+    guestScoreEl.textContent = guestCount
 }
 
-function addingTwo() {
-    count += 2
-    guestScoreEl.textContent = count
+function add2() {
+    guestCount += 2
+    guestScoreEl.textContent = guestCount
 }
 
-function addingThree() {
-    count += 3
-    guestScoreEl.textContent = count
+function add3() {
+    guestCount += 3
+    guestScoreEl.textContent = guestCount
+}
+
+function newGame() {
+    homeScoreEl.textContent = newCount
+    guestScoreEl.textContent = newCount
+    homeCount = 0
+    guestCount = 0
+    
 }
